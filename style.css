@@ -100,3 +100,12 @@ border-top:1px solid #eee;
 text-align:center;
 color:#777;
 }
+
+.profile-pic{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
