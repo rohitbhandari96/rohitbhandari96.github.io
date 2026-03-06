@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+}
+
+body{
+background:white;
+color:#111;
+line-height:1.6;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+position:sticky;
+top:0;
+background:white;
+border-bottom:1px solid #eee;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-size:14px;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:70px;
+font-weight:600;
+}
+
+.hero p{
+font-size:22px;
+color:#555;
+margin-top:10px;
+}
+
+section{
+padding:100px 10%;
+text-align:center;
+}
+
+.about p{
+max-width:700px;
+margin:auto;
+color:#555;
+font-size:18px;
+}
+
+.video-grid{
+margin-top:40px;
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+iframe{
+width:420px;
+height:236px;
+border-radius:12px;
+}
+
+.social-buttons{
+margin-top:40px;
+}
+
+.social-buttons a{
+display:inline-block;
+margin:10px;
+padding:12px 24px;
+border:1px solid #111;
+border-radius:30px;
+text-decoration:none;
+color:#111;
+transition:0.3s;
+}
+
+.social-buttons a:hover{
+background:#111;
+color:white;
+}
+
+footer{
+padding:30px;
+border-top:1px solid #eee;
+text-align:center;
+color:#777;
+}
